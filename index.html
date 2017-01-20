@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>load-spreadsheets example</title>
+  </head>
+  <body>
+    <p>open browser console to see results.</p>
+    <p><a href="https://docs.google.com/spreadsheets/d/1FjYCGAIrxM-dKOXgY46fCG5SHRvnpXZO3OvLMnBJi_c/edit#gid=0">example spreadsheet</a></p>
+    <pre><code>
+loadSpreadsheet('1FjYCGAIrxM-dKOXgY46fCG5SHRvnpXZO3OvLMnBJi_c', 1, function(d) {
+  console.log(d)
+})
+    </code></pre>
+    <script src="./load-spreadsheets.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      loadSpreadsheet('1FjYCGAIrxM-dKOXgY46fCG5SHRvnpXZO3OvLMnBJi_c', 1, function(d) {
+        console.log(d)
+      })
+    </script>
+  </body>
+</html>
+
